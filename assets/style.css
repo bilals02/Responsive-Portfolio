@@ -1,5 +1,5 @@
 /*
-HW 1 Recommended Assignment
+HW 2 Responsive Portfolio
 **/
 
 * {
@@ -74,7 +74,7 @@ aside {
     margin: 15px;
 
 }
- 
+
 .Articles {
     padding: 7px;
     margin: 5px;
@@ -177,4 +177,60 @@ aside {
     text-align: center;
     position: relative;
     font-family: sans;
+}
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+    #Name {
+        margin-left: 0px;
+        text-align: center;
+        background: lightseagreen;
+        width: 640px;
+        }
+
+    aside {
+        margin-top: 80px;
+        padding: 5px;
+        position: absolute;
+        text-align: center;
+        width: 640px;
+        height: 30px;
+        background: white;
+        color: darkgray;
+        font-family: sans-serif;
+        font-size: 16px;
+        }
+
+    .Sub_AboutMe {
+        margin-top: 50px;
+        margin-left: 25px;
+        padding: 30px;
+        border: 1px solid lightgray;
+        width: 590px;
+        height: 475px;
+        background: white;
+        
+        }
+    #AboutMe_text {
+        font-size: 20;
+        }
+
+    .ProfilePic{
+        clear: both;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 2px;
+
+    }
+
+    .Articles {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 171px;
+        line-height: 15px;
+        color: darkgray;
+        font-family: sans-serif;
+    }
+    
 }
