@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 
 </head>
@@ -16,10 +17,10 @@
 
     <header>    
         <section id="TopNav">
-
-            <section id="LeftNav"><a href="index.html">About</a>  | <a href=#>Portfolio</a>  | <a href="contact.html">Contact</a> </section>
-
+            <aside><a href=#>About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></aside>
             <div id="Name">Bilal Saeed</div>
+
+
          </section>
     </header>
 
@@ -29,32 +30,46 @@
                 <div id="AboutMe_text">Portfolio</div>
                 <hr style="color: gray; margin-bottom: 20px;">
 
-                <table>
-                        <tr>
-                            <td style="padding: 15px;"><img src=".\images\hangman.png" height="130" width="170" >
-                                <div class="ImageCaption">Hangman</div>
-                            </td>
-                            <td><img src=".\images\rpggame.png" height="130" width="170">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-sm-4">
+                            <div id="CenterAlign">
+                                <img src=".\images\hangman.png" height="130" width="170" >
+                                <div class="ImageCaption">Word Guess</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <div id="Hidden">
+                                <img src=".\images\rpggame.png" height="130" width="170">
                                 <div class="ImageCaption">RPG Game</div>
-                            </td>
-                        </tr>
-                        <tr>
-                                <td style="padding: 15px;"><img src=".\images\TriviaGame.png" height="130" width="170" >
-                                    <div class="ImageCaption">Trivia Game</div>
-                                </td>
-                                <td><img src=".\images\Rutgers.png" height="130" width="170">
-                                    <div class="ImageCaption">Rutgers Info Widget</div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding: 15px;"><img src=".\images\RockPaper.png" height="130" width="170" >
-                                    <div class="ImageCaption">Rock Paper Scissors</div>
-                                </td>
-                                </tr>
-                      </table>
-  
-   
-                            
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">   
+                        <div class="col-6 col-sm-4 mt-4">
+                            <div id="CenterAlign">
+                                <img src=".\images\TriviaGame.png" height="130" width="170" >
+                                <div class="ImageCaption">Trivia Game</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 mt-4">
+                            <div id="Hidden">
+                                <img src=".\images\Rutgers.png" height="130" width="170">
+                                <div class="ImageCaption">Rutgers Info Widget</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">  
+                        <div class="col-6 col-sm-4 mt-4">
+                            <div id="CenterAlign">
+                                <img src=".\images\RockPaper.png" height="130" width="170" >
+                                <div class="ImageCaption">Rock Paper Scissors</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                            
             </div>
         </section>
 
